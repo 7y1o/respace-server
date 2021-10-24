@@ -15,6 +15,6 @@ export async function Help(): Promise<void> {
 export function HelpMan(): string {
     return [
         chalk.cyanBright('Help for "help" :D'),
-        'Description: Clear console'
+        'Description: Outputs commands and descriptions for it'
     ].join('\n');
 }
