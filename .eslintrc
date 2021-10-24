@@ -1,0 +1,47 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+	"@typescript-eslint"
+  ],
+  "extends": [
+	"eslint:recommended",
+	"plugin:@typescript-eslint/eslint-recommended",
+	"plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+	"quotes": [2, "single", {
+	  "avoidEscape": true
+	}],
+	"eol-last": [2],
+	"no-empty-function": [2],
+	"consistent-return": [2],
+	"no-unreachable": [2],
+	"no-empty": [2],
+	"no-dupe-keys": [2],
+	"no-dupe-args": [2],
+	"no-console": [0],
+	"no-cond-assign": [0],
+	"no-compare-neg-zero": [0],
+	"capitalized-comments": [2],
+	"camelcase": [2],
+	"strict": [0],
+	"accessor-pairs": [2],
+	"array-bracket-spacing": [2, "always"],
+	"array-callback-return": [0],
+	"array-element-newline": [0],
+	"arrow-body-style": [0, "as-needed"],
+	"arrow-parens": [2],
+	"arrow-spacing": [2],
+	"block-scoped-var": [2],
+	"block-spacing": [2],
+	"brace-style": [2, "1tbs"],
+	"callback-return": [0],
+	"no-array-constructor": [2],
+	"no-unused-expressions": [2],
+	"no-unused-vars": [2],
+	"require-jsdoc": [2],
+	"object-curly-spacing": [2, "always"],
+	"no-constant-condition": [0]
+  }
+}
