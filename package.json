@@ -17,6 +17,7 @@
 		"@types/websocket": "^1.0.4",
 		"@typescript-eslint/eslint-plugin": "^5.1.0",
 		"@typescript-eslint/parser": "^5.1.0",
+		"cypress": "^8.6.0",
 		"esbuild": "^0.13.8",
 		"eslint": "^8.0.1",
 		"express": "^4.17.1",
