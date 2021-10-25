@@ -15,7 +15,6 @@
 	}],
 	"eol-last": [2],
 	"no-empty-function": [2],
-	"consistent-return": [2],
 	"no-unreachable": [2],
 	"no-empty": [2],
 	"no-dupe-keys": [2],
